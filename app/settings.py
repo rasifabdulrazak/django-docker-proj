@@ -87,7 +87,7 @@ DATABASE_ATTRIBUTES={
     'HOST': os.environ.get('DB_HOST'),  
     'PORT': os.environ.get('DB_PORT'), 
 }
-
+print(DATABASE_ATTRIBUTES)
 DATABASES = {
     'default': DATABASE_ATTRIBUTES
 }
